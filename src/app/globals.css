@@ -1,27 +1,150 @@
+@import url('https://unpkg.com/css.gg@2.0.0/icons/css/phone.css');
+@import url('https://unpkg.com/css.gg@2.0.0/icons/css/mail.css');
+@import url('https://unpkg.com/css.gg@2.0.0/icons/css/facebook.css');
+@import url('https://unpkg.com/css.gg@2.0.0/icons/css/instagram.css');
+
 @tailwind base;
+
+* {
+  @apply box-border;
+}
+
+body {
+  @apply leading-relaxed;
+}
+
+ul {
+  @apply list-disc list-inside;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+@layer base {
+
+  html,
+  body,
+  h2,
+  a,
+  h3 {
+    font-family: var(--livvic-font);
+  }
+
+  h3 {
+    @apply text-gray-100;
+  }
+
+  .myFont {
+    font-family: 'Guld Script PERSONAL USE ONLY', sans-serif;
+  }
+}
+
+
 @tailwind components;
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  --foreground-rgb: 10, 10, 10;
+  --background-start-rgb: 249, 250, 251;
+  --background-end-rgb: 249, 250, 251;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+    --foreground-rgb: 249, 250, 251;
+    --background-start-rgb: 10, 10, 10;
+    --background-end-rgb: 10, 10, 10;
   }
 }
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
+  background: linear-gradient(to bottom,
       transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+      rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
+}
+
+/* PAGE NEW */
+
+.button {
+  @apply py-3 px-14 me-2 mb-2 sm:text-base md:text-base lg:text-xl text-gray-950 dark:text-gray-50 bg-zinc-50 dark:bg-zinc-950 border border-gray-700 dark:border-gray-400 hover:bg-gray-100 hover:text-gray-950 hover:border-gray-900 focus:outline-none focus:z-10 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 dark:hover:text-gray-950 dark:hover:bg-gray-50 rounded-lg shadow-md
+}
+
+.grid-main {
+  @apply sm:grid sm:grid-cols-1 sm:gap-4 md:grid md:grid-cols-2 md:gap-4 lg:grid lg:grid-cols-2 lg:gap-4;
+}
+
+.title-header {
+  @apply sm:text-base md:text-4xl lg:text-5xl md:leading-9;
+}
+
+.grid-second-main {
+  @apply sm:grid sm:grid-cols-1 sm:gap-6 md:grid md:grid-cols-3 md:gap-3 lg:grid lg:grid-cols-3 lg:gap-3 justify-stretch;
+}
+
+.card {
+  @apply block mx-auto rounded-lg hover:bg-gray-300;
+}
+
+/* FOOTER */
+.grid-footer {
+  @apply sm:grid sm:grid-cols-1 sm:gap-1 md:grid md:grid-cols-3 md:gap-6 lg:grid lg:grid-cols-4 lg:gap-1;
+}
+
+.grid-element {
+  @apply md:justify-self-start lg:justify-self-center py-7;
+}
+
+/* .grid-contact {
+  @apply sm:grid sm:grid-cols-3 sm:gap-4 md:grid md:grid-cols-4 md:gap-4 lg:grid lg:grid-cols-3 lg:gap-4;
+} */
+
+.link-element {
+  @apply text-sm hover:text-gray-400;
+}
+
+.title-footer {
+  @apply pb-4 text-slate-300;
+}
+
+.link-footer {
+  @apply text-gray-300 hover:text-gray-400 pb-3 text-sm;
+}
+
+/* PAGE JEWELS */
+.grid-title {
+  @apply sm:grid sm:grid-cols-1 sm:gap-4 md:grid md:grid-cols-1 md:gap-4 lg:grid lg:grid-cols-1 lg:gap-4;
+}
+
+.grid-article {
+  @apply sm:grid sm:grid-cols-1 sm:gap-16 md:grid md:grid-cols-4 md:gap-3 lg:grid lg:grid-cols-4 lg:gap-3 justify-stretch;
+}
+
+.title-article {
+  @apply sm:text-base md:text-4xl lg:text-5xl sm:leading-3 md:leading-9 lg:leading-10 sm:pt-16 md:p-0 lg:pb-4;
+}
+
+/* PAGE CONTACT */
+
+.container {
+  @apply block justify-center;
+}
+
+.form-input {
+  @apply bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-md focus:ring-gray-900 focus:border-gray-900 block w-full p-2.5 dark:bg-gray-300 dark:border-gray-600 dark:placeholder-gray-600 dark:text-white dark:focus:ring-gray-900 dark:focus:border-gray-900;
+
+}
+
+.form-label {
+  @apply block mb-2 text-sm font-medium text-gray-900 dark:text-white;
+}
+
+.grid-contact {
+  @apply sm:grid sm:grid-cols-1 sm:gap-4 md:grid md:grid-cols-1 md:gap-4 lg:grid lg:grid-cols-2 lg:gap-4 mx-7 lg:mx-16;
+}
+
+.grid-about {
+  @apply grid gap-1 mb-6 grid-cols-1;
 }
