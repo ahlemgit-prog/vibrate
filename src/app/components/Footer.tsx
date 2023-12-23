@@ -92,10 +92,10 @@ export default function Footer() {
                 {/* FOURTH SECTION */}
                 <div className="grid-element">
                     <h3 className="title-footer">FOLLOW US</h3>
-                    <div className="grid grid-cols-2 gap-1">
+                    <div className="social-footer flex flex-wrap">
                         <div className="text-white">
                             <a href="/" className="link-footer">
-                                <i className="gg-facebook hover:text-gray-400"></i>
+                                <i className="gg-facebook hover:text-gray-400 px-4"></i>
                             </a>
                         </div>
 
