@@ -13,7 +13,7 @@ export default function Article() {
                 {/* IMAGE PRINCIPAL */}
                 <div className="">
                     <Image
-                        className="block justify-center mx-auto py-20"
+                        className="block justify-center mx-auto py-20 scale-75 hover:scale-95 ease-in duration-500"
                         src="/6.png"
                         alt="Draw Image"
                         width={670}
@@ -38,78 +38,78 @@ export default function Article() {
                                     <div className="grid grid-cols-3 gap-4">
 
                                         <div className="col-span-2">
-                                            <p className="text-gray-400 dark:text-gray-400 leading-9 text-md">
+                                            <p className="text-article">
                                                 Weight (gr)
                                             </p>
                                         </div>
                                         <div className="">
-                                            <p className="text-gray-950 dark:text-gray-300 leading-9 text-md">
+                                            <p className="text-article">
                                                 0.905
                                             </p>
                                         </div>
 
                                         <div className="col-span-2">
-                                            <p className="text-gray-400 dark:text-gray-400 leading-9 text-md">
+                                            <p className="text-article">
                                                 Main material
                                             </p>
                                         </div>
                                         <div className="">
-                                            <p className="text-gray-950 dark:text-gray-300 leading-9 text-md">
+                                            <p className="text-article">
                                                 Gold
                                             </p>
                                         </div>
 
                                         <div className="col-span-2">
-                                            <p className="text-gray-400 dark:text-gray-400 leading-9 text-md">
+                                            <p className="text-article">
                                                 Color
                                             </p>
                                         </div>
                                         <div className="">
-                                            <p className="text-gray-950 dark:text-gray-300 leading-9 text-md">
+                                            <p className="text-article">
                                                 Rose & White
                                             </p>
                                         </div>
 
                                         <div className="col-span-2">
-                                            <p className="text-gray-400 dark:text-gray-400 leading-9 text-md">
+                                            <p className="text-article">
                                                 Diamond's color
                                             </p>
                                         </div>
                                         <div className="">
-                                            <p className="text-gray-950 dark:text-gray-300 leading-9 text-md">
+                                            <p className="text-article">
                                                 White
                                             </p>
                                         </div>
 
                                         <div className="col-span-2">
-                                            <p className="text-gray-400 dark:text-gray-400 leading-9 text-md">
+                                            <p className="text-article">
                                                 Number of stones
                                             </p>
                                         </div>
                                         <div className="">
-                                            <p className="text-gray-950 dark:text-gray-300 leading-9 text-md">
+                                            <p className="text-article">
                                                 7
                                             </p>
                                         </div>
 
                                         <div className="col-span-2">
-                                            <p className="text-gray-400 dark:text-gray-400 leading-9 text-md">
+                                            <p className="text-article">
                                                 Shape
                                             </p>
                                         </div>
                                         <div className="">
-                                            <p className="text-gray-950 dark:text-gray-300 leading-9 text-md">
+                                            <p className="text-article">
                                                 Round
                                             </p>
                                         </div>
 
                                         <div className="col-span-2">
-                                            <p className="text-gray-400 dark:text-gray-400 leading-9 text-md">
+                                            <p className="text-article">
                                                 Carat
                                             </p>
                                         </div>
                                         <div className="">
-                                            <p className="text-gray-950 dark:text-gray-300 leading-9 text-md">
+                                            <p className="text-article">
                                                 0.0350
                                             </p>
                                         </div>
