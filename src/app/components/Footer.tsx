@@ -93,14 +93,14 @@ export default function Footer() {
                 <div className="grid-element">
                     <h3 className="title-footer">FOLLOW US</h3>
                     <div className="social-footer flex flex-wrap">
-                        <div className="text-white">
-                            <a href="/" className="link-footer">
+                        <div className="text-white link-footer">
+                            <a href="/" className="">
                                 <i className="gg-facebook hover:text-gray-400 px-4"></i>
                             </a>
                         </div>
 
                         <div className="text-white">
-                            <a href="/" className="link-footer">
+                            <a href="/" className="">
                                 <i className="gg-instagram hover:text-gray-400"></i>
                             </a>
                         </div>
@@ -111,7 +111,7 @@ export default function Footer() {
 
             {/* COPYRIGHT */}
             <div className="col-start-1 col-end-7">
-                <p className="text-center text-xs py-8 text-gray-200">&copy; 2023 Diamond Heart</p>
+                <p className="text-center text-xs py-8 text-gray-200">&copy; 2023 Diamond Heart. All rights are reserved</p>
             </div>
         </main>
 
