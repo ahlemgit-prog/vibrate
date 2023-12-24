@@ -132,7 +132,7 @@ body {
 /* PAGE ARTICLE */
 
 .text-article {
-  @apply text-gray-400 dark:text-gray-400 leading-9 text-md;
+  @apply text-gray-400 dark:text-gray-400 leading-9;
 }
 
 /* PAGE CONTACT */
