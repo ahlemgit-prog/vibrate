@@ -129,6 +129,12 @@ body {
   @apply sm:text-base md:text-4xl lg:text-5xl sm:leading-3 md:leading-9 lg:leading-10 sm:pt-16 md:p-0 lg:pb-4;
 }
 
+/* PAGE ARTICLE */
+
+.text-article {
+  @apply text-gray-400 dark:text-gray-400 leading-9 text-md;
+}
+
 /* PAGE CONTACT */
 
 .container {
