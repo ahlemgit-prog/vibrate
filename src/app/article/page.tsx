@@ -38,78 +38,78 @@ export default function Article() {
                                     <div className="grid grid-cols-3 gap-4">
 
                                         <div className="col-span-2">
-                                            <p className="text-article">
+                                            <p className="text-article-left">
                                                 Weight (gr)
                                             </p>
                                         </div>
                                         <div className="">
-                                            <p className="text-article">
+                                            <p className="text-article-right">
                                                 0.905
                                             </p>
                                         </div>
 
                                         <div className="col-span-2">
-                                            <p className="text-article">
+                                            <p className="text-article-left">
                                                 Main material
                                             </p>
                                         </div>
                                         <div className="">
-                                            <p className="text-article">
+                                            <p className="text-article-right">
                                                 Gold
                                             </p>
                                         </div>
 
                                         <div className="col-span-2">
-                                            <p className="text-article">
+                                            <p className="text-article-left">
                                                 Color
                                             </p>
                                         </div>
                                         <div className="">
-                                            <p className="text-article">
+                                            <p className="text-article-right">
                                                 Rose & White
                                             </p>
                                         </div>
 
                                         <div className="col-span-2">
-                                            <p className="text-article">
+                                            <p className="text-article-left">
                                                 Diamond's color
                                             </p>
                                         </div>
                                         <div className="">
-                                            <p className="text-article">
+                                            <p className="text-article-right">
                                                 White
                                             </p>
                                         </div>
 
                                         <div className="col-span-2">
-                                            <p className="text-article">
+                                            <p className="text-article-left">
                                                 Number of stones
                                             </p>
                                         </div>
                                         <div className="">
-                                            <p className="text-article">
+                                            <p className="text-article-right">
                                                 7
                                             </p>
                                         </div>
 
                                         <div className="col-span-2">
-                                            <p className="text-article">
+                                            <p className="text-article-left">
                                                 Shape
                                             </p>
                                         </div>
                                         <div className="">
-                                            <p className="text-article">
+                                            <p className="text-article-right">
                                                 Round
                                             </p>
                                         </div>
 
                                         <div className="col-span-2">
-                                            <p className="text-article">
+                                            <p className="text-article-left">
                                                 Carat
                                             </p>
                                         </div>
                                         <div className="">
-                                            <p className="text-article">
+                                            <p className="text-article-right">
                                                 0.0350
                                             </p>
                                         </div>
