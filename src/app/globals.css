@@ -66,26 +66,29 @@ body {
       rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
 }
 
-/* PAGE NEW */
 
-.button {
-  @apply py-3 px-14 me-2 mb-2 sm:text-base md:text-base lg:text-xl text-gray-950 dark:text-gray-50 bg-zinc-50 dark:bg-zinc-950 border border-gray-700 dark:border-gray-400 hover:bg-gray-100 hover:text-gray-950 hover:border-gray-900 focus:outline-none focus:z-10 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 dark:hover:text-gray-950 dark:hover:bg-gray-50 rounded-lg shadow-md
+/* NAVBAR */
+
+.link-navbar {
+  @apply text-gray-100 hover:bg-gray-100 hover:text-gray-950 rounded-lg p-3 hover:scale-100 transition duration-500 cursor-pointer object-cover;
 }
+
+.link-navbar-mobile {
+  @apply block text-gray-100 hover:bg-gray-100 hover:text-gray-950 rounded-lg pl-5 p-2 hover:scale-100 transition duration-500 cursor-pointer object-cover;
+}
+
+/* PAGE NEW */
 
 .grid-main {
   @apply sm:grid sm:grid-cols-1 sm:gap-4 md:grid md:grid-cols-2 md:gap-4 lg:grid lg:grid-cols-2 lg:gap-4;
 }
 
 .title-header {
-  @apply sm:text-base md:text-4xl lg:text-5xl md:leading-9;
+  @apply text-3xl md:text-4xl lg:text-5xl md:leading-9;
 }
 
 .grid-second-main {
   @apply sm:grid sm:grid-cols-1 sm:gap-6 md:grid md:grid-cols-3 md:gap-3 lg:grid lg:grid-cols-3 lg:gap-3 justify-stretch;
-}
-
-.card {
-  @apply block mx-auto rounded-lg hover:bg-gray-300;
 }
 
 /* FOOTER */
@@ -102,7 +105,7 @@ body {
 }
 
 .link-element {
-  @apply text-sm hover:text-gray-400;
+  @apply text-sm hover:text-gray-400 hover:scale-105 ease-in duration-500;
 }
 
 .title-footer {
@@ -110,7 +113,7 @@ body {
 }
 
 .link-footer {
-  @apply text-gray-300 hover:text-gray-400 pb-3 text-sm;
+  @apply text-gray-300 hover:text-gray-400 pb-3 text-sm hover:scale-105 ease-in duration-500;
 }
 
 /* PAGE JEWELS */
@@ -129,7 +132,7 @@ body {
 /* PAGE CONTACT */
 
 .container {
-  @apply block justify-center;
+  @apply block justify-center mx-auto;
 }
 
 .form-input {
@@ -147,4 +150,15 @@ body {
 
 .grid-about {
   @apply grid gap-1 mb-6 grid-cols-1;
+}
+
+/* ALL PAGES */
+
+.button {
+  @apply text-center px-20 py-3 md:px-28 lg:px-40 me-2 mb-2 sm:text-base md:text-base lg:text-xl text-gray-950 dark:text-gray-50 bg-zinc-50 dark:bg-zinc-950 border border-gray-700 dark:border-gray-400 hover:bg-gray-100 hover:text-gray-950 hover:border-gray-900 focus:outline-none focus:z-10 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 dark:hover:text-gray-950 dark:hover:bg-gray-50 rounded-lg shadow-md hover:scale-95 transition duration-500 cursor-pointer object-cover;
+}
+
+
+.card {
+  @apply block mx-auto rounded-lg hover:bg-gray-300 hover:scale-95 transition duration-500 cursor-pointer object-cover;
 }
