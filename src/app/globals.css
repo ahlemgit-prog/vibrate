@@ -131,9 +131,14 @@ body {
 
 /* PAGE ARTICLE */
 
-.text-article {
-  @apply text-gray-400 dark:text-gray-400 leading-9;
+.text-article-left {
+    @apply text-gray-400 dark:text-gray-400 leading-9 !important;
 }
+
+.text-article-right {
+    @apply text-gray-950 dark:text-gray-300 leading-9 !important;
+}
+
 
 /* PAGE CONTACT */
 
