@@ -28,10 +28,10 @@ export default function Home() {
         <div className="flex justify-center">
           <div className="mx-auto md:pt-20 lg:pt-18 sm:items-center">
             <div>
-              <h2 className="title-header pb-4 text-3xl">
+              <h2 className="title-header pb-4">
                 Special Celebration
               </h2>
-              <p className='title-header text-3xl'>with <span className="myFont animate-pulse"> Diamond Heart</span></p>
+              <p className='title-header'>with <span className="myFont animate-pulse"> Diamond Heart</span></p>
             </div>
             <div className="grid grid-cols-1 pt-7 pb-14">
               <button type="button" className="button">
