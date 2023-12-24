@@ -33,19 +33,19 @@ export default function Navbar() {
                     </div>
                     <div className="hidden md:block">
                         <div className="ml-4 flex items-center space-x-4">
-                            <a href="/" className="text-white hover:bg-white hover:text-gray-950 rounded-lg p-3">
+                            <a href="/" className="link-navbar">
                                 New
                             </a>
 
-                            <a href="/jewels" className="text-white hover:bg-white hover:text-gray-950 rounded-lg p-3">
+                            <a href="/jewels" className="link-navbar">
                                 Jewels
                             </a>
 
-                            <a href="/about" className="text-white hover:bg-white hover:text-gray-950 rounded-lg p-3">
+                            <a href="/about" className="link-navbar">
                                 About
                             </a>
 
-                            <a href="/contact" className="text-white hover:bg-white hover:text-gray-950 rounded-lg p-3">
+                            <a href="/contact" className="link-navbar">
                                 Contact
                             </a>
                         </div>
@@ -99,19 +99,19 @@ export default function Navbar() {
             {isClick && (
                 <div className="md:hidden">
                     <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-                        <a href="/" className="text-white block hover:bg-white hover:text-gray-950 rounded-lg pl-5 p-2">
+                        <a href="/" className="link-navbar-mobile">
                             New
                         </a>
 
-                        <a href="/jewels" className="text-white block hover:bg-white hover:text-gray-950 rounded-lg pl-5 p-2">
+                        <a href="/jewels" className="link-navbar-mobile">
                             Jewels
                         </a>
 
-                        <a href="/about" className="text-white block hover:bg-white hover:text-gray-950 rounded-lg pl-5 p-2">
+                        <a href="/about" className="link-navbar-mobile">
                             About
                         </a>
 
-                        <a href="/contact" className="text-white block hover:bg-white hover:text-gray-950 rounded-lg pl-5 p-2">
+                        <a href="/contact" className="link-navbar-mobile">
                             Contact
                         </a>
                     </div>
@@ -120,3 +120,4 @@ export default function Navbar() {
         </nav>
     )
 };
+
